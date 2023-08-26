@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+html,body{
+    background-color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: aliceblue;
+    padding: 2vw 10vw;
+}
+.heading button{
+    padding: 0.3vw 1vw;
+    background-color: navajowhite;
+    font-weight: bold;
+}
+.heading h2{
+    color: orange;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.nav a{
+    margin: 0 1vw;
+    text-decoration: none;
+    font-size: 1.2vw;
+    color: whitesmoke;
+}
+.nav a:hover{
+    color: red;
+}
+.main{
+    display: flex;
+    color: whitesmoke;
+}
+.main .content1{
+    padding: 12vw;
+    height: 60vh;
+    width: 50vw;
+    margin-top: 2vw;
+
+}
+.content1 span{
+    color: orange;
+}
+.content1 button{
+    padding: 0.7vw 1.2vw;
+    margin-right: 1.5vw;
+    font-weight: bold;
+    border-radius: 0.3vw;
+}
+.content1 #cv{
+    background-color: rgb(76, 121, 76);
+    color: whitesmoke;
+    
+}
+.content1 #talk{
+    padding: 0.7vw 1.8vw;
+}
+.main .content3{
+    background-color: rgb(241, 204, 204);
+   margin-top: 8vw;
+   border-radius: 50%;
+   height:60vh ;
+   width: 35vw;
+
+
+} 
+.main .content3 img{
+    height: 50vh;
+    width: 30vw;
+    margin-top: 5.1vw;
+} 
+.footer{
+    background-color: aqua;
+    height: 20vh;
+    margin-top: 2vw;
+}
